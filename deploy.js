@@ -4,8 +4,8 @@ const { Web3 } = require('web3');
 const { abi, evm } = require('./compile');
  
 provider = new HDWalletProvider(
-    'misery absent hawk profit equip blossom element leg plunge alcohol gain slot', 
-    'https://sepolia.infura.io/v3/5142ba37e42445798979135032d27357'
+    'your_pneumonic_12_words', //Replace
+    'https://sepolia.infura.io/v3/your_project_id' //Replace
 );
  
 const web3 = new Web3(provider);
